@@ -1,8 +1,8 @@
-### Respeaker LED Controller
+## Respeaker LED Controller
 
 This repository demonstrates how to control Respeaker Pixel Ring via MQTT.
 
-#### Installation
+### Installation
 
 ```shell script
 git clone https://github.com/sskorol/respeaker-led.git && cd respeaker-led
@@ -40,6 +40,6 @@ Use any MQTT client for testing:
 mosquitto_pub -h ip -u username -P password -t respeaker/led/wake -m 140
 ```
 
-#### Respeaker Integration
+### Respeaker Integration
 
 You can use this project with [respeaker-websockets](https://github.com/sskorol/respeaker-websockets) which is already configured to control LEDs when hotword is detected and transcribe is received.
